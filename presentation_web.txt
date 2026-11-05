@@ -1,0 +1,239 @@
+LE WEB : DE LA PREMIERE PAGE AU MONDE CONNECTE
+Fiche de préparation pour un exposé en classe
+Travail collaboratif de Noah et Arthur
+
+Conseil : prévoyez environ 7 à 10 minutes. Gardez les diapositives aérées :
+quelques mots-clés et une image ou un exemple par diapositive. Les phrases
+« À dire » servent de notes pour l'oral et ne sont pas à recopier en entier.
+
+
+DIAPOSITIVE 1 — TITRE ET INTRODUCTION
+
+À afficher :
+- Le Web : de la première page au monde connecté
+- Histoire, évolutions, métiers et cybersécurité
+- Noah et Arthur
+
+À dire :
+« Nous allons présenter l'histoire du Web, expliquer comment ses usages ont
+évolué, découvrir les métiers qui permettent de créer des sites et voir
+pourquoi la sécurité nous concerne tous. »
+
+Visuel possible : une frise allant d'un ordinateur ancien à un smartphone.
+
+
+DIAPOSITIVE 2 — INTERNET ET WEB : CE N'EST PAS LA MEME CHOSE
+
+À afficher :
+- Internet = le réseau qui relie des réseaux et des appareils.
+- Le Web = un service qui fonctionne grâce à Internet.
+- Le Web permet de consulter des pages reliées par des liens.
+- Les e-mails utilisent Internet, mais ne sont pas le Web.
+
+À dire :
+« On confond souvent Internet et le Web. Internet est l'infrastructure de
+communication. Le Web est un des services qui l'utilisent, comme le courrier
+électronique en est un autre. Un navigateur permet d'accéder aux sites Web. »
+
+Exemple : le navigateur est l'outil ; Internet est le réseau ; un site est une
+ressource du Web.
+
+
+DIAPOSITIVE 3 — LES GRANDES ETAPES DE L'HISTOIRE
+
+À afficher :
+- 1969 : ARPANET relie des ordinateurs de centres de recherche.
+- 1983 : adoption de TCP/IP, une base importante d'Internet.
+- 1989 : Tim Berners-Lee propose le Web au CERN.
+- 1991 : le Web et ses premiers outils sont développés au CERN.
+- 1993 : le CERN rend le logiciel du Web librement réutilisable.
+- 2000 et après : le Web devient de plus en plus participatif et mobile.
+
+À dire :
+« Internet existait avant le Web. En 1989, au CERN, Tim Berners-Lee propose
+un système pour relier des documents par des liens hypertextes. Les pages
+utilisent notamment HTML pour structurer leur contenu, HTTP pour les échanges
+et des URL pour identifier les ressources. »
+
+Repère important : le premier site Web expliquait le projet World Wide Web.
+
+Visuel possible : une frise chronologique avec 4 ou 5 dates seulement.
+
+
+DIAPOSITIVE 4 — WEB 1.0 : SURTOUT CONSULTER
+
+À afficher :
+- Principalement des pages à lire.
+- Les auteurs publient ; les visiteurs contribuent peu.
+- Les liens hypertextes relient les informations.
+- Exemple : le premier site du CERN.
+
+À dire :
+« Le Web 1.0 est un repère pour décrire les premiers usages du Web, surtout
+dans les années 1990. On consulte principalement des pages publiées par leurs
+auteurs. Cette séparation n'est pas absolue : les formulaires et le commerce
+en ligne existaient déjà. »
+
+
+DIAPOSITIVE 5 — WEB 2.0 : PARTICIPER ET PARTAGER
+
+À afficher :
+- Les utilisateurs publient, commentent et collaborent.
+- Réseaux sociaux, vidéos et encyclopédies collaboratives.
+- Exemples : Wikipédia, YouTube et les réseaux sociaux.
+- Enjeux : modération, désinformation, harcèlement et données personnelles.
+
+À dire :
+« À partir des années 2000, de nombreux services permettent aux utilisateurs
+de créer et partager du contenu sans devoir programmer une page eux-mêmes.
+Cela facilite la collaboration et l'expression, mais crée aussi de nouveaux
+problèmes, par exemple la désinformation et la protection des données. »
+
+
+DIAPOSITIVE 6 — WEB 3.0 : PLUSIEURS VISIONS
+
+À afficher :
+- Web sémantique : données structurées et reliées, par exemple Wikidata.
+- Web décentralisé, souvent appelé Web3 : blockchains et applications
+  décentralisées, par exemple autour d'Ethereum.
+- Autre vision : services davantage basés sur l'IA et la personnalisation.
+- Ces approches sont différentes et ne sont pas adoptées partout.
+
+À dire :
+« Le terme Web 3.0 n'a pas une seule définition. Il peut désigner des données
+structurées, des applications décentralisées utilisant des blockchains ou
+des services plus personnalisés grâce à l'intelligence artificielle. Ces
+idées ne sont pas équivalentes. Une blockchain ne garantit pas à elle seule
+que l'utilisateur maîtrise ses données. »
+
+
+DIAPOSITIVE 7 — QUI CREE UN SITE WEB ?
+
+À afficher :
+- Chef de projet : définit les besoins et organise le travail.
+- UX/UI designer : pense aux usages et dessine l'interface.
+- Intégrateur et développeurs : construisent les pages et les fonctionnalités.
+- Testeur/QA : vérifie la qualité.
+- DevOps et administration système : déploient et maintiennent le service.
+- D'autres rôles : contenu, référencement, analyse, cybersécurité et données.
+
+À dire :
+« Créer un site est un travail d'équipe. Le front-end concerne la partie
+visible et interactive dans le navigateur. Le back-end concerne la partie
+serveur, la logique et l'accès aux données. Un développeur full-stack travaille
+sur les deux. Les rôles se complètent du premier besoin jusqu'à la maintenance. »
+
+Visuel possible : un schéma en étapes : cadrer, concevoir, développer, tester,
+déployer et faire évoluer.
+
+
+DIAPOSITIVE 8 — LES QUALITES D'UN SITE BIEN CONCU
+
+À afficher :
+- Responsive : s'adapte aux téléphones, tablettes et ordinateurs.
+- Accessible : compréhensible au clavier et avec un lecteur d'écran.
+- Performant : images adaptées et chargement raisonnable.
+- Fiable : testé sur plusieurs navigateurs et appareils.
+- Respectueux : collecte limitée des données et consentement approprié.
+- Maintenu : dépendances mises à jour et code vérifié.
+
+À dire :
+« Un bon site ne doit pas seulement être joli. Il doit être utilisable par des
+personnes différentes, sur plusieurs appareils, sans attendre inutilement.
+Il faut également protéger les données et tester les parcours importants,
+comme l'envoi d'un formulaire. »
+
+
+DIAPOSITIVE 9 — CYBERSECURITE : MENACES ET REFLEXES
+
+À afficher :
+Menaces :
+- Hameçonnage (phishing) : message trompeur pour voler des informations.
+- Rançongiciel : bloque ou chiffre des fichiers pour demander une rançon.
+- Comptes compromis : identifiants volés ou réutilisés.
+- Failles de sites : peuvent exposer, modifier ou rendre des données
+  indisponibles.
+
+Réflexes :
+- Vérifier l'expéditeur et ouvrir les services depuis leur adresse habituelle.
+- Utiliser des mots de passe longs et uniques, et l'authentification
+  multifacteur.
+- Mettre à jour les logiciels et limiter les droits d'accès.
+- Protéger les données et secrets ; faire des sauvegardes isolées et tester
+  leur restauration.
+
+À dire :
+« Une attaque peut entraîner une fuite de données, l'arrêt d'un service et une
+perte de confiance. Les motivations peuvent être financières, politiques ou
+liées à l'espionnage. La sécurité doit être prévue dès la conception, pas
+ajoutée seulement à la fin. »
+
+
+DIAPOSITIVE 10 — LES DEFIS DU WEB ET CONCLUSION
+
+À afficher :
+- Le Web facilite l'accès à l'information et la collaboration.
+- L'accès, les compétences et les équipements restent inégalement répartis.
+- Quelques grandes plateformes concentrent des services et des données.
+- La vie privée, la sécurité et la fiabilité de l'information sont essentielles.
+- Le Web évolue : ses différentes formes continuent de coexister.
+
+À dire :
+« Le Web a transformé notre façon de communiquer, d'apprendre et de travailler.
+Mais il faut rester attentif à la sécurité, à la vie privée, à la fiabilité des
+informations et à la dépendance envers certaines plateformes. Pour conclure,
+Internet est le réseau, le Web est un service d'Internet, et chacun peut
+contribuer à un Web plus utile, accessible et sûr. »
+
+Phrase de conclusion possible :
+« Le Web est fait de technologies, mais aussi des usages et des choix des
+personnes qui le construisent et l'utilisent. »
+
+
+QUESTIONS POSSIBLES APRES L'EXPOSE
+
+1. Internet et le Web, est-ce la même chose ?
+   Non. Internet relie les réseaux ; le Web est un service qui utilise Internet.
+
+2. Le Web 1.0, le Web 2.0 et le Web 3.0 se remplacent-ils complètement ?
+   Non. Ce sont des repères sur des usages ou des visions ; ils peuvent coexister.
+
+3. Est-ce que le Web 3.0 signifie forcément blockchain ?
+   Non. Le terme recouvre plusieurs visions, dont le Web sémantique, certaines
+   approches décentralisées et des services associés à l'IA.
+
+4. Comment se protéger contre l'hameçonnage ?
+   Vérifier l'expéditeur et l'adresse du site, ne pas transmettre ses codes
+   depuis un lien douteux et accéder au service par son adresse habituelle.
+
+5. Pourquoi faut-il plusieurs métiers pour créer un site ?
+   Parce qu'il faut comprendre les besoins, concevoir l'interface, programmer,
+   tester, publier et maintenir le service.
+
+
+SOURCES A CITER
+
+- CERN — La naissance du Web :
+  https://home.web.cern.ch/fr/science/computing/birth-web/
+- CERN — Le premier site Web :
+  https://info.cern.ch/hypertext/WWW/TheProject.html
+- Computer History Museum — Réseaux et Web :
+  https://www.computerhistory.org/timeline/networking-the-web/
+- Internet Archive — Wayback Machine, archives de sites :
+  https://web.archive.org/
+- W3C — Standards du Web :
+  https://www.w3.org/standards/
+- Union européenne — Accessibilité des produits et services :
+  https://europa.eu/youreurope/business/selling-in-eu/selling-goods-services/accessibility/index_en.htm
+- CNIL — Règles à suivre pour les cookies :
+  https://www.cnil.fr/en/node/873
+- OWASP — Risques de sécurité des applications Web :
+  https://owasp.org/Top10/
+- Wikidata — Présentation :
+  https://www.wikidata.org/wiki/Wikidata:Introduction/fr
+- Ethereum — Présentation :
+  https://ethereum.org/fr/what-is-ethereum/
+
+Conseil pour les sources : indiquez les sites consultés à la fin du PowerPoint.
+Pour une image, vérifiez aussi ses droits d'utilisation et indiquez son auteur
+ou sa source.

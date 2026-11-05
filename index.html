@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Explorer — De la première page au monde connecté</title>
+    <meta
+      name="description"
+      content="Explorez l'histoire du Web, ses évolutions, ses métiers et les enjeux de cybersécurité. Un travail collaboratif de Noah et Arthur."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#histoire">Aller au contenu</a>
+    <header>
+      <a class="brand" href="#"><span class="logo">w.</span> web explorer</a>
+      <nav aria-label="Navigation principale">
+        <a href="#histoire">Histoire</a><a href="#evolution">Évolution</a
+        ><a href="#metiers">Métiers</a><a href="#securite">Cybersécurité</a
+        ><a href="#lexique">Lexique ↗</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">LE WEB, EXPLIQUÉ SIMPLEMENT</p>
+          <h1>De la première page<br />au <em>monde connecté.</em></h1>
+          <p class="intro">
+            Une histoire d’idées, de liens et de personnes. Explorez les
+            transformations du Web et les métiers qui construisent son avenir.
+          </p>
+          <a class="button" href="#histoire"
+            >Commencer l’exploration <span>↗</span></a
+          >
+          <p class="authors">UN TRAVAIL COLLABORATIF DE <b>NOAH & ARTHUR</b></p>
+        </div>
+        <div
+          class="visual"
+          aria-label="Illustration du passage du Web de lecture au Web connecté"
+        >
+          <div class="orbit one"></div>
+          <div class="orbit two"></div>
+          <div class="orb">www<span>un monde de liens</span></div>
+          <span class="node n1">&lt;html&gt;</span
+          ><span class="node n2">1989 ↗</span
+          ><span class="node n3">01 → 02 → 03</span
+          ><span class="node n4">connectés.</span>
+          <div class="caption">DE L’INFORMATION À L’INTERACTION</div>
+        </div>
+      </section>
+      <div class="strip">
+        <div><b>1989</b><span>La naissance du Web</span></div>
+        <div><b>3 visions</b><span>Lire, participer, réinventer</span></div>
+        <div><b>1 réseau</b><span>Des usages partout dans le monde</span></div>
+        <a href="#securite">Un avenir à sécuriser ↗</a>
+      </div>
+      <section id="histoire">
+        <div class="section-head">
+          <p class="eyebrow">01 / LES ORIGINES</p>
+          <h2>Tout commence<br />par une idée de partage.</h2>
+          <p>
+            En 1989, au CERN, Tim Berners-Lee propose de relier des informations
+            entre ordinateurs. Le Web devient un moyen de consulter des
+            documents grâce aux liens hypertextes.
+          </p>
+        </div>
+        <div class="note">
+          <b>Internet ≠ Web</b>
+          <p>
+            Internet est l’infrastructure qui relie les réseaux. Le Web est l’un
+            de ses services, accessible avec un navigateur. Les e-mails
+            utilisent aussi Internet, sans être le Web.
+          </p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+        <div class="history-context">
+          <article>
+            <h3>Les grandes plateformes</h3>
+            <p>
+              GAFAM désigne Google, Apple, Facebook, Amazon et Microsoft, selon
+              leurs noms historiques ; Facebook fait aujourd’hui partie de Meta.
+              BATX désigne Baidu, Alibaba, Tencent et Xiaomi. Ces acronymes
+              décrivent des groupes d’entreprises, pas des versions du Web. Ils
+              permettent d’aborder la concentration des services, des
+              infrastructures et des données, ainsi que la dépendance des
+              utilisateurs et des développeurs à des plateformes.
+            </p>
+          </article>
+          <article>
+            <h3>Comment voir les anciens sites</h3>
+            <p>
+              La Wayback Machine permet de chercher une adresse comme
+              microsoft.com, google.com ou yahoo.com puis de sélectionner une
+              capture datée. Une archive peut être incomplète : images, scripts
+              et liens ne sont pas toujours conservés. Pour une présentation
+              orale, comparez une capture ancienne et une page récente, en
+              indiquant clairement leurs dates.
+            </p>
+          </article>
+        </div>
+        <p class="source">
+          Pour aller plus loin :
+          <a
+            href="https://home.web.cern.ch/fr/science/computing/birth-web/"
+            target="_blank"
+            rel="noopener"
+            >La naissance du Web, CERN ↗</a
+          >
+        </p>
+      </section>
+      <section id="evolution" class="tinted">
+        <div class="section-head">
+          <p class="eyebrow">02 / UN WEB EN MOUVEMENT</p>
+          <h2>Lire. Participer.<br />Réinventer.</h2>
+          <p>
+            Ces repères décrivent des changements d’usage. Ils se chevauchent :
+            une nouvelle vision du Web ne remplace pas toutes les précédentes.
+          </p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Générations du Web">
+          <button
+            role="tab"
+            aria-selected="true"
+            aria-controls="web-panel"
+            id="tab0"
+            data-tab="0"
+          >
+            Web 1.0 <span>La lecture</span></button
+          ><button
+            role="tab"
+            aria-selected="false"
+            aria-controls="web-panel"
+            id="tab1"
+            data-tab="1"
+            tabindex="-1"
+          >
+            Web 2.0 <span>La participation</span></button
+          ><button
+            role="tab"
+            aria-selected="false"
+            aria-controls="web-panel"
+            id="tab2"
+            data-tab="2"
+            tabindex="-1"
+          >
+            Web 3.0 <span>Les nouvelles visions</span>
+          </button>
+        </div>
+        <div
+          id="web-panel"
+          class="web-panel"
+          role="tabpanel"
+          aria-labelledby="tab0"
+        ></div>
+      </section>
+      <section id="metiers">
+        <div class="section-head">
+          <p class="eyebrow">03 / DERRIÈRE CHAQUE SITE</p>
+          <h2>Un site, plusieurs talents.</h2>
+          <p>
+            Du premier croquis à la mise en ligne, la création d’un site réunit
+            des compétences complémentaires.
+          </p>
+        </div>
+        <div class="jobs" id="jobs"></div>
+        <div class="career">
+          <p class="eyebrow">ET APRÈS ?</p>
+          <h3>Construire sa carrière</h3>
+          <p>
+            Junior → confirmé → senior → lead developer ou architecte. On peut
+            aussi évoluer vers la gestion de projet, devenir consultant,
+            formateur ou indépendant, ou se spécialiser en sécurité, DevOps,
+            data et IA.
+          </p>
+        </div>
+        <h3 class="subheading">Les réflexes du développeur d’aujourd’hui</h3>
+        <div class="principles expanded">
+          <article>
+            <h3>Mobile et responsive</h3>
+            <p>
+              Le développeur adapte les contenus à la largeur de l’écran,
+              prévoit des boutons faciles à toucher et évite le défilement
+              horizontal. Exemple : un menu horizontal devient un menu compact
+              sur téléphone. Il teste aussi le site sur une connexion lente.
+            </p>
+          </article>
+          <article>
+            <h3>Accessibilité</h3>
+            <p>
+              Une personne doit pouvoir parcourir le site au clavier et
+              comprendre les formulaires avec un lecteur d’écran. Le développeur
+              utilise des titres structurés, des libellés, des textes
+              alternatifs pertinents et des contrastes suffisants. Depuis le 28
+              juin 2025, l’acte européen sur l’accessibilité s’applique à
+              certains produits et services ; son champ et ses exemptions
+              doivent être vérifiés selon le projet, il ne vise pas
+              indistinctement tous les sites.
+            </p>
+          </article>
+          <article>
+            <h3>Performance et référencement</h3>
+            <p>
+              Le développeur optimise les images, évite les scripts inutiles et
+              réserve la place des éléments qui se chargent. Les Core Web Vitals
+              mesurent notamment le chargement du contenu principal (LCP), la
+              réactivité (INP) et la stabilité visuelle (CLS). Des titres
+              clairs, un HTML structuré et des liens compréhensibles aident
+              aussi les moteurs de recherche ; ces éléments ne garantissent pas
+              un classement.
+            </p>
+          </article>
+          <article>
+            <h3>Sécurité dès la conception</h3>
+            <p>
+              La sécurité concerne le serveur autant que l’interface. Le
+              développeur contrôle les autorisations, valide les entrées,
+              utilise des requêtes paramétrées et protège les secrets. Exemple :
+              changer un numéro de commande dans une URL ne doit jamais donner
+              accès à la commande d’un autre client.
+            </p>
+          </article>
+          <article>
+            <h3>Données personnelles et consentement</h3>
+            <p>
+              Le développeur limite les données collectées à ce qui sert
+              réellement au service et prévoit leur durée de conservation. Les
+              traceurs soumis au consentement doivent rester bloqués avant le
+              choix de l’utilisateur ; accepter et refuser doivent être aussi
+              simples. Certains traceurs nécessaires sont dispensés de
+              consentement : un bandeau n’est pas obligatoire pour toute page.
+            </p>
+          </article>
+          <article>
+            <h3>Compatibilité et tests</h3>
+            <p>
+              Un site doit fonctionner sur plusieurs navigateurs et appareils,
+              sans supposer que tous prennent en charge les mêmes fonctions. Le
+              développeur teste les parcours essentiels, comme l’envoi d’un
+              formulaire, et prévoit une solution de repli lorsqu’une fonction
+              manque.
+            </p>
+          </article>
+          <article>
+            <h3>Écoconception</h3>
+            <p>
+              Réduire les images trop lourdes, les vidéos automatiques et les
+              appels réseau inutiles limite les ressources nécessaires. Exemple
+              : une image adaptée à l’écran évite d’envoyer une photo de très
+              grande taille à un téléphone. La sobriété doit rester compatible
+              avec les besoins et l’accessibilité.
+            </p>
+          </article>
+          <article>
+            <h3>Outils et déploiement</h3>
+            <p>
+              Git conserve l’historique du code ; les API connectent les
+              services ; les tests et les pipelines CI/CD automatisent certaines
+              vérifications et mises en ligne. Le développeur choisit un
+              framework selon le besoin et prévoit un retour à une version
+              stable si une livraison échoue.
+            </p>
+          </article>
+          <article>
+            <h3>UX et collaboration</h3>
+            <p>
+              Le développeur échange avec le designer, les responsables du
+              contenu et le chef de projet pour comprendre l’usage réel. Exemple
+              : un formulaire avec une erreur doit expliquer le problème et
+              conserver les informations déjà saisies, plutôt que demander de
+              tout recommencer.
+            </p>
+          </article>
+          <article>
+            <h3>Veille et usage de l’IA</h3>
+            <p>
+              Le développeur suit les évolutions des standards, les correctifs
+              de sécurité et la maintenance des dépendances. Il peut utiliser
+              l’IA pour proposer une solution, mais relit, teste et comprend le
+              code obtenu ; il évite de transmettre des secrets ou des données
+              personnelles sans cadre adapté.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="securite" class="dark">
+        <div class="section-head">
+          <p class="eyebrow">04 / LA CONFIANCE SE CONSTRUIT</p>
+          <h2>Connecté, donc concerné.</h2>
+          <p>
+            Une cyberattaque peut voler des données, interrompre une activité et
+            dégrader la confiance. Les développeurs ont un rôle direct dans la
+            protection des sites.
+          </p>
+        </div>
+        <div class="security-grid">
+          <div>
+            <h3>Comprendre les menaces</h3>
+            <details open>
+              <summary>Phishing · tromper pour voler</summary>
+              <p>
+                Un message imite une organisation pour obtenir des identifiants
+                ou pousser à ouvrir un fichier dangereux. Vérifiez l’expéditeur
+                et accédez au service par son adresse habituelle.
+              </p>
+            </details>
+            <details>
+              <summary>Rançongiciel · bloquer et extorquer</summary>
+              <p>
+                Un logiciel malveillant chiffre des fichiers ou bloque un
+                système. Les mises à jour, les sauvegardes isolées et testées,
+                et la sensibilisation réduisent les risques.
+              </p>
+            </details>
+            <details>
+              <summary>Comptes compromis · détourner un accès</summary>
+              <p>
+                Des identifiants volés ou réutilisés peuvent ouvrir plusieurs
+                comptes. Utilisez des mots de passe longs et uniques, un
+                gestionnaire et une authentification multifacteur.
+              </p>
+            </details>
+            <details>
+              <summary>Attaques de sites · exploiter une faille</summary>
+              <p>
+                Les injections, le XSS et les contrôles d’accès défaillants
+                peuvent exposer ou modifier des données. Employez des requêtes
+                paramétrées, encodez les sorties et vérifiez les autorisations
+                côté serveur. Un déni de service vise à rendre le site
+                indisponible.
+              </p>
+            </details>
+          </div>
+          <aside class="shield">
+            <span class="shield-icon">⌘</span>
+            <p class="eyebrow">LES BONS RÉFLEXES</p>
+            <h3>La sécurité commence<br />dans la conception.</h3>
+            <ul>
+              <li>Mettre à jour les dépendances</li>
+              <li>Limiter les droits d’accès</li>
+              <li>Protéger les secrets et les données</li>
+              <li>Tester la restauration des sauvegardes</li>
+              <li>Surveiller les erreurs et les incidents</li>
+            </ul>
+            <a href="https://owasp.org/Top10/" target="_blank" rel="noopener"
+              >Explorer les risques avec OWASP ↗</a
+            >
+          </aside>
+        </div>
+        <div class="impact">
+          <div>
+            <b>Pourquoi attaquer ?</b>
+            <p>
+              Gain financier, espionnage, activisme ou vengeance : les
+              motivations sont variées.
+            </p>
+          </div>
+          <div>
+            <b>Quelles conséquences ?</b>
+            <p>
+              Pertes financières, arrêt des services, fuite de données,
+              réputation fragilisée et pression sur les équipes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="lexique">
+        <div class="section-head">
+          <p class="eyebrow">05 / LES MOTS DU WEB</p>
+          <h2>Le jargon, décodé.</h2>
+          <p>
+            Une définition simple pour mieux comprendre les technologies et les
+            métiers.
+          </p>
+        </div>
+        <label class="search"
+          >Rechercher un terme<input
+            type="search"
+            id="search"
+            placeholder="Ex. API, front-end, UX…"
+        /></label>
+        <div id="terms" class="terms"></div>
+        <p id="empty" hidden>Aucun terme ne correspond à votre recherche.</p>
+      </section>
+      <section class="quiz">
+        <p class="eyebrow">LE DERNIER CLIC</p>
+        <h2>Avez-vous retenu l’essentiel ?</h2>
+        <p>Le Web et Internet désignent-ils la même chose ?</p>
+        <div>
+          <button data-answer="wrong">Oui, c’est la même chose</button
+          ><button data-answer="right">
+            Non, le Web est un service d’Internet
+          </button>
+        </div>
+        <p id="feedback" aria-live="polite"></p>
+      </section>
+      <section id="sources">
+        <p class="eyebrow">POUR VÉRIFIER ET APPROFONDIR</p>
+        <h2>Sources et références</h2>
+        <div class="source-list">
+          <a
+            href="https://home.web.cern.ch/fr/science/computing/birth-web/"
+            target="_blank"
+            rel="noopener"
+            >CERN — La naissance du Web ↗</a
+          ><a
+            href="https://info.cern.ch/hypertext/WWW/TheProject.html"
+            target="_blank"
+            rel="noopener"
+            >CERN — Premier site ↗</a
+          ><a
+            href="https://www.computerhistory.org/timeline/networking-the-web/"
+            target="_blank"
+            rel="noopener"
+            >Computer History Museum — Réseaux et Web ↗</a
+          ><a
+            href="https://www.ebayinc.com/company/our-history/"
+            target="_blank"
+            rel="noopener"
+            >eBay — Histoire de l’entreprise ↗</a
+          ><a
+            href="https://press.aboutamazon.com/1995/10/worlds-largest-bookseller-opens-on-the-web"
+            target="_blank"
+            rel="noopener"
+            >Amazon — Ouverture de la librairie en ligne en 1995 ↗</a
+          ><a
+            href="https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/"
+            target="_blank"
+            rel="noopener"
+            >Apple — Présentation de l’iPod en 2001 ↗</a
+          ><a
+            href="https://www.apple.com/newsroom/2003/04/28Apple-Launches-the-iTunes-Music-Store/"
+            target="_blank"
+            rel="noopener"
+            >Apple — iTunes Music Store en 2003 ↗</a
+          ><a
+            href="https://history.computer.org/pubs/timeline.pdf"
+            target="_blank"
+            rel="noopener"
+            >IEEE Computer Society — Chronologie et Napster ↗</a
+          ><a
+            href="https://blog.x.com/en_us/a/2006/twitter-updates"
+            target="_blank"
+            rel="noopener"
+            >Twitter — Archives de 2006 ↗</a
+          ><a
+            href="https://www.wikidata.org/wiki/Wikidata:Introduction/fr"
+            target="_blank"
+            rel="noopener"
+            >Wikidata — Présentation ↗</a
+          ><a
+            href="https://ethereum.org/fr/what-is-ethereum/"
+            target="_blank"
+            rel="noopener"
+            >Ethereum — Présentation ↗</a
+          ><a
+            href="https://www.w3.org/standards/"
+            target="_blank"
+            rel="noopener"
+            >W3C — Standards du Web ↗</a
+          ><a
+            href="https://web.dev/articles/vitals"
+            target="_blank"
+            rel="noopener"
+            >web.dev — Web Vitals ↗</a
+          ><a
+            href="https://europa.eu/youreurope/business/selling-in-eu/selling-goods-services/accessibility/index_en.htm"
+            target="_blank"
+            rel="noopener"
+            >Union européenne — Accessibilité des produits et services ↗</a
+          ><a
+            href="https://www.cnil.fr/en/node/873"
+            target="_blank"
+            rel="noopener"
+            >CNIL — Les règles à suivre pour les cookies ↗</a
+          ><a href="https://owasp.org/Top10/" target="_blank" rel="noopener"
+            >OWASP — Risques de sécurité des applications Web ↗</a
+          ><a href="https://web.archive.org/" target="_blank" rel="noopener"
+            >Internet Archive — Wayback Machine ↗</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#"><span class="logo">w.</span> web explorer</a>
+      <p>travail collaboratif de Noah & Arthur.</p>
+      <a href="#">Retour en haut ↑</a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
